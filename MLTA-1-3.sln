@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLTA-1-3", "MLTA-1-3\MLTA-1-3.csproj", "{889DE35E-DD16-463C-8273-65EFDC0DC466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{889DE35E-DD16-463C-8273-65EFDC0DC466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889DE35E-DD16-463C-8273-65EFDC0DC466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889DE35E-DD16-463C-8273-65EFDC0DC466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889DE35E-DD16-463C-8273-65EFDC0DC466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {038BB205-1FD1-48E1-9787-51C7C9599E8B}
+	EndGlobalSection
+EndGlobal
