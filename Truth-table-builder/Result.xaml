@@ -1,0 +1,41 @@
+﻿<Page x:Class="Truth_table_builder.Result"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Result">
+    
+    <Page.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="5,5,5,0"/>
+            <Setter Property="Background" Value="#FF00262B"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Foreground" Value="#DDD2D2D2"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+    </Page.Resources>
+    
+    <Grid>
+        <Border Padding="10,10,0,10">
+            <ScrollViewer Background="#FF003238" Foreground="#FF004048">
+                <DockPanel LastChildFill="True">
+                    <Label DockPanel.Dock="Top" Content="ТАБЛИЦА ИСТИННОСТИ"/>
+
+                    <StackPanel x:Name="Letters" DockPanel.Dock="Left" Orientation="Vertical">
+                        <Label x:Name="letters" DockPanel.Dock="Top"/>
+                    </StackPanel>
+
+                    <StackPanel x:Name="Function" DockPanel.Dock="Left" Orientation="Vertical">
+                        <Label x:Name="function" DockPanel.Dock="Top" Content="F("/>
+                    </StackPanel>
+
+                </DockPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+    
+</Page>

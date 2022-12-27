@@ -4,7 +4,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-namespace MLTA_1_3
+namespace Truth_table_builder
 {
     /// <summary>
     /// Таблица истинности
@@ -13,6 +13,7 @@ namespace MLTA_1_3
     {
         private readonly List<char> lettersList;
         private string infixNotation;
+
         /// <summary>
         /// Таблица истинности
         /// </summary>
@@ -42,6 +43,7 @@ namespace MLTA_1_3
             function.Content += ")";
             Run();
         }
+
         /// <summary>
         /// Построение таблицы истинности по инфиксной записи
         /// </summary>
@@ -73,6 +75,7 @@ namespace MLTA_1_3
                 Letters.Children.Add(letters);
             }
         }
+
         /// <summary>
         /// Создаёт строку по таблице истинности
         /// </summary>
@@ -106,6 +109,7 @@ namespace MLTA_1_3
             }
             return result;
         }
+
         /// <summary>
         /// Результат функции при входных параметрах
         /// </summary>
@@ -155,6 +159,7 @@ namespace MLTA_1_3
             }
             return stack.Peek();
         }
+
         /// <summary>
         /// Преобразование инфиксной записи в постфиксную
         /// </summary>
@@ -229,6 +234,7 @@ namespace MLTA_1_3
             }
             return postfix;
         }
+
         /// <summary>
         /// Приоритет операции
         /// </summary>
@@ -250,6 +256,7 @@ namespace MLTA_1_3
                     return 0;
             }
         }
+
         /// <summary>
         /// Проверка на правильность написания инфиксной нотации
         /// </summary>

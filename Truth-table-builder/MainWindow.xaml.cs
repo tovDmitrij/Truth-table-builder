@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-namespace MLTA_1_3
+namespace Truth_table_builder
 {
     public partial class MainWindow : Window
     {
@@ -8,6 +8,7 @@ namespace MLTA_1_3
         {
             InitializeComponent();
         }
+
         /// <summary>
         /// Нажатие кнопок на панели
         /// </summary>
@@ -33,6 +34,7 @@ namespace MLTA_1_3
                     return;
             }
         }
+
         /// <summary>
         /// Подтверждение
         /// </summary>
